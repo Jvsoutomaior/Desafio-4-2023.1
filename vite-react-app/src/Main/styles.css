@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+    background: #3A3A3A;
+
+}
+
+.main{
+    width: 110.125rem;
+    height: 50.4375rem;
+    border-radius: 0.9375rem;
+    border: 18px solid #969696;
+    margin: 5.31rem 4.5rem 5.38rem 5.37rem;    
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 0px 0px;
+}
+
+input{
+    background: transparent;
+    border: none;
+}
+
+h1{
+    text-align: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#card{
+    border-radius: 0.9375rem;
+}
+
+#card h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.task{
+    background: #846351;
+}
+
+#form{
+    border-radius: 0.9375rem;
+    background: rgba(66, 80, 100, 0.39);
+}
+
+p{
+    text-align: center;
+}
+
+#inputInside{
+    display: block;
+}
+
+#buttonArea{
+    display: flex;
+    justify-content: space-around;
+}
